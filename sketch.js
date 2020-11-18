@@ -16,7 +16,7 @@ var deadImg;
 
 function preload(){
   //Load images
-  shooterImg =loadImage("/images/superhero.gif1");
+  shooterImg =loadImage("/images/superhero.gif");
   deadImg =loadImage("/images/end.png");
   backgroundImg =loadImage("/images/background.gif");
   lostImg =loadImage("/images/loose.png");
