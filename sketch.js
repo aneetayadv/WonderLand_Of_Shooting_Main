@@ -16,17 +16,17 @@ var deadImg;
 
 function preload(){
   //Load images
-  shooterImg =loadImage("/images/superhero.gif");
-  deadImg =loadImage("/images/end.png");
-  backgroundImg =loadImage("/images/background.gif");
-  lostImg =loadImage("/images/loose.png");
-  heroImg =loadImage("/images/won.png");
-  winImg =loadImage("/images/winner.jpg");
-  tankGif =loadImage("/images/tank.gif");
-  flowersImg =loadImage("/images/flowers.gif");
-  axeGif =loadImage("/images/axe.gif");
-  bulletImg = loadImage("/images/bullet1.png");
-  groundImg = loadImage("/images/ground.gif");
+  shooterImg =loadImage("images/superhero.gif");
+  deadImg =loadImage("images/end.png");
+  backgroundImg =loadImage("images/background.gif");
+  lostImg =loadImage("images/loose.png");
+  heroImg =loadImage("images/won.png");
+  winImg =loadImage("images/winner.jpg");
+  tankGif =loadImage("images/tank.gif");
+  flowersImg =loadImage("images/flowers.gif");
+  axeGif =loadImage("images/axe.gif");
+  bulletImg = loadImage("images/bullet1.png");
+  groundImg = loadImage("images/ground.gif");
   //Load Sounds
   burstSound = loadSound("burst.mp3");
   backgroundSound = loadSound("Background.mp3");
